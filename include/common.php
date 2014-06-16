@@ -324,7 +324,7 @@ function getip() {
     return long2ip(ip2long($_SERVER['REMOTE_ADDR']));
 }
 
-function hex2bin ($input, $assume_safe=true) {
+function yubi_hex2bin ($input, $assume_safe=true) {
     if ($assume_safe !== true && ! ((strlen($input)%2) == 0 || preg_match ('/^[0-9a-f]+$/i', $input)))
         return '';
     return pack('H*', $input);
