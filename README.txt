@@ -44,6 +44,7 @@ The opensource free support forum is http://www.btiteam.org
 - Web server with Apache or Lighttp installed and running
 - PHP 4.3 or higher (If you use php 4, you'll have to rename the phpmailer's folder phpmailer->phpmailer5 and phpmailer4->phpmailer)
 - Mysql 4.1 or higher
+- Mysql driver for php (debian: apt-get install php5-mysql)
 
 #----------------#
 # DOCUMENTATION  #
